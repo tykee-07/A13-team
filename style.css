@@ -359,7 +359,7 @@
 .flowers {
     width: 340px;
     height: 574px;
-    /* border: 1px solid red; */
+    border: 1px solid gray;
     /* position: relative; */
 }
 
