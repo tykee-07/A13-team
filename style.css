@@ -491,6 +491,36 @@
     line-height: 18px;
     letter-spacing: 0%;
     text-align: left;
+font-family: Museo Sans Cyrl;
+font-size: 16px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+}
+.prise{
+    display: flex;
+    
+    flex-direction: column;
+}
+.prise .kol{
+    color: rgb(189, 189, 189);
+font-family: Museo Sans Cyrl;
+font-size: 18px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: line-through; /* текс чиет  */
+}
+.prise .lok{
+    color: rgb(149, 109, 132);
+font-family: Museo Sans Cyrl;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 .prise {
@@ -610,6 +640,13 @@
     letter-spacing: 0%;
     text-align: center;
     text-decoration-line: underline;
+font-family: Euclid Circular B;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;/*под текстам линия*/
 }
 
 
