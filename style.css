@@ -1,4 +1,3 @@
-
 .main {
   width: 1424px;
   height: 648px;
@@ -12,6 +11,11 @@
   border: 1px solid slateblue;
   position: relative;
 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper__one h1 {
@@ -65,74 +69,85 @@
   top: 277px;
   left: 11px;
   color: white;
-section{
-    width: 1440px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(4,1fr);
-    height: 700px;
-    gap: 10px;
-    margin-top: 130px;
 }
-.flower{
-    grid-row: span 4;
-    grid-column: span 4;
-    position: relative;
+
+section {
+  width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 700px;
+  gap: 10px;
+  margin-top: 130px;
 }
-.flower2{
-    grid-row: span 2;
-    grid-column: span 2;
-    position: relative;
+
+.flower {
+  grid-row: span 4;
+  grid-column: span 4;
+  position: relative;
 }
-.flower3{
-    grid-row: span 2;
-    grid-column: span 2;
-    position: relative;
+
+.flower2 {
+  grid-row: span 2;
+  grid-column: span 2;
+  position: relative;
+}
+
+.flower3 {
+  grid-row: span 2;
+  grid-column: span 2;
+  position: relative;
 
 }
-.flower4{
-    grid-row: span 2;
-    grid-column: span 2;
-    position: relative;
+
+.flower4 {
+  grid-row: span 2;
+  grid-column: span 2;
+  position: relative;
 
 }
-.flower5{
-    grid-row: span 2;
-    grid-column: span 2;
-    position: relative;
+
+.flower5 {
+  grid-row: span 2;
+  grid-column: span 2;
+  position: relative;
 
 }
-.image1{
-    width: 700px;
-   height: 669px;
+
+.image1 {
+  width: 700px;
+  height: 669px;
 }
-.image{
-    width: 336px;
-   height: 321px;
+
+.image {
+  width: 336px;
+  height: 321px;
 }
-.h2{
+
+.h2 {
   position: absolute;
   top: 15px;
   left: 15px;
   color: rgb(51, 51, 51);
-font-family: Museo Sans Cyrl;
-font-size: 36px;
-font-weight: 900;
-line-height: 18px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Museo Sans Cyrl;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
 }
-.h2-h2{
-    font-family: Museo Sans Cyrl;
-font-size: 36px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0%;
-text-align: left;
-position: absolute;
-top: 15px;
-right: 20px;
-width: 412px;
-height: 110px;
+
+.h2-h2 {
+  font-family: Museo Sans Cyrl;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 412px;
+  height: 110px;
 }
